@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  overflow: hidden;
+}
+.container {
+  width: 85vw;
+  height: 95vh;
+  margin: 5vh 5vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40vw;
+  height: 75%;
+  padding: 10px;
+}
+
+.btn-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+input[type="button"],
+input[type="reset"] {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  box-shadow: 1px 1px 2px darkgray, -1px -1px 2px darkgray;
+  border-radius: 5px;
+}
+
+#res {
+  padding: 50px 50px;
+  font-family: sans-serif;
+  width: 70vw;
+}
+
+.erro {
+  font-size: 1.2em;
+  color: red;
+}

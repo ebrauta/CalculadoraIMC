@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo do IMC</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <form>
+        <label for="peso"
+          >Massa:
+          <input
+            type="text"
+            name="peso"
+            id="peso"
+            placeholder="Digite sua massa"
+          />
+          <select id="unidadeMassa">
+            <option value="quilo">Quilogramas (kg)</option>
+            <option value="grama">Gramas (g)</option>
+            <option value="libra">Libra (lb)</option>
+          </select>
+        </label>
+        <label for="altura"
+          >Altura:
+          <input
+            type="text"
+            name="altura"
+            id="altura"
+            placeholder="Digite sua Altura"
+          />
+          <select id="unidadeAltura">
+            <option value="metro">Metros (m)</option>
+            <option value="centimetro">Centímetros (cm)</option>
+            <option value="polegada">Polegadas (pol)</option>
+            <option value="pe">Pés (ft)</option>
+          </select>
+        </label>
+        <div class="btn-group">
+          <input type="button" value="Calcular IMC" id="btnCalcular" />
+          <input type="reset" value="Limpar" id="btnReset" />
+        </div>
+      </form>
+      <p id="res"></p>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
